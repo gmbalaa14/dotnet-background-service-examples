@@ -1,7 +1,7 @@
 using System.Diagnostics;
-using DotNet10.NonBlockingStartup.Api.Data;
+using DotNet.BackgroundService.Shared.Data;
+using DotNet.BackgroundService.Shared.Services;
 using DotNet10.NonBlockingStartup.Api.Services;
-using DotNet10.NonBlockingStartup.Api.Services.Background;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

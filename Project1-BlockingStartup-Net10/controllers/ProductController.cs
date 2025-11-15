@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using DotNet10.NonBlockingStartup.Api.Services;
+using DotNet.BackgroundService.Shared.Services;
 
 namespace DotNet10.NonBlockingStartup.Api.Controllers;
 

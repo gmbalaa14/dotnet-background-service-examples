@@ -1,7 +1,7 @@
 using System.Diagnostics;
-using DotNet9.BlockingStartup.Api.Data;
+using DotNet.BackgroundService.Shared.Data;
+using DotNet.BackgroundService.Shared.Services;
 using DotNet9.BlockingStartup.Api.Services;
-using DotNet9.BlockingStartup.Api.Services.Background;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DotNet9.BlockingStartup.Api.Models;
+namespace DotNet.BackgroundService.Shared.Models;
 
 public class Product
 {

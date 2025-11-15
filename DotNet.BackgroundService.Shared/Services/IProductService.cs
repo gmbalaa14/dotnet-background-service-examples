@@ -1,6 +1,6 @@
-using DotNet10.NonBlockingStartup.Api.DataContracts;
+using DotNet.BackgroundService.Shared.DataContracts;
 
-namespace DotNet10.NonBlockingStartup.Api.Services;
+namespace DotNet.BackgroundService.Shared.Services;
 
 public interface IProductService
 {

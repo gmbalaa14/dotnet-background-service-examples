@@ -8,6 +8,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project1-BlockingStartup-Ne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet10.NonBlockingStartup.Api", "Project1-BlockingStartup-Net10\DotNet10.NonBlockingStartup.Api.csproj", "{DEFF9090-CBD3-4854-BB97-E1EA50E6AF54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.BackgroundService.Shared", "DotNet.BackgroundService.Shared\DotNet.BackgroundService.Shared.csproj", "{2A75C63F-5B91-4802-9F09-B8539029B67F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,18 @@ Global
 		{DEFF9090-CBD3-4854-BB97-E1EA50E6AF54}.Release|x64.Build.0 = Release|Any CPU
 		{DEFF9090-CBD3-4854-BB97-E1EA50E6AF54}.Release|x86.ActiveCfg = Release|Any CPU
 		{DEFF9090-CBD3-4854-BB97-E1EA50E6AF54}.Release|x86.Build.0 = Release|Any CPU
+		{2A75C63F-5B91-4802-9F09-B8539029B67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A75C63F-5B91-4802-9F09-B8539029B67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A75C63F-5B91-4802-9F09-B8539029B67F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2A75C63F-5B91-4802-9F09-B8539029B67F}.Debug|x64.Build.0 = Debug|Any CPU
+		{2A75C63F-5B91-4802-9F09-B8539029B67F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2A75C63F-5B91-4802-9F09-B8539029B67F}.Debug|x86.Build.0 = Debug|Any CPU
+		{2A75C63F-5B91-4802-9F09-B8539029B67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A75C63F-5B91-4802-9F09-B8539029B67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A75C63F-5B91-4802-9F09-B8539029B67F}.Release|x64.ActiveCfg = Release|Any CPU
+		{2A75C63F-5B91-4802-9F09-B8539029B67F}.Release|x64.Build.0 = Release|Any CPU
+		{2A75C63F-5B91-4802-9F09-B8539029B67F}.Release|x86.ActiveCfg = Release|Any CPU
+		{2A75C63F-5B91-4802-9F09-B8539029B67F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

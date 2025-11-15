@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using DotNet10.NonBlockingStartup.Api.Models;
+using DotNet.BackgroundService.Shared.Models;
 
-namespace DotNet10.NonBlockingStartup.Api.Data;
+namespace DotNet.BackgroundService.Shared.Data;
 
 public class ProductDbContext(DbContextOptions<ProductDbContext> options) : DbContext(options)
 {

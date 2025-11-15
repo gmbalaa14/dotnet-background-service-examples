@@ -1,10 +1,11 @@
 using System.Text.Json;
-using DotNet9.BlockingStartup.Api.Data;
-using DotNet9.BlockingStartup.Api.DataContracts;
-using DotNet9.BlockingStartup.Api.Models;
+using DotNet.BackgroundService.Shared.Data;
+using DotNet.BackgroundService.Shared.DataContracts;
+using DotNet.BackgroundService.Shared.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
-namespace DotNet9.BlockingStartup.Api.Services;
+namespace DotNet.BackgroundService.Shared.Services;
 
 public class ProductService(ProductDbContext context, HttpClient httpClient, ILogger<ProductService> logger) : IProductService
 {

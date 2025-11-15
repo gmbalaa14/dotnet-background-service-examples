@@ -1,4 +1,6 @@
-namespace DotNet9.BlockingStartup.Api.Services.Background;
+using DotNet.BackgroundService.Shared.Services;
+
+namespace DotNet9.BlockingStartup.Api.Services;
 
 // This demonstrates blocking startup behavior in .NET 9 with realistic startup checks
 public class BlockingStartupService(

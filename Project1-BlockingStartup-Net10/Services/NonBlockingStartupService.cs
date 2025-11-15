@@ -1,4 +1,6 @@
-namespace DotNet10.NonBlockingStartup.Api.Services.Background;
+using DotNet.BackgroundService.Shared.Services;
+
+namespace DotNet10.NonBlockingStartup.Api.Services;
 
 // This demonstrates non-blocking startup behavior in .NET 10 with realistic startup checks
 public class NonBlockingStartupService(

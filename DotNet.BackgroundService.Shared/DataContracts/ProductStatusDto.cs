@@ -1,4 +1,4 @@
-namespace DotNet10.NonBlockingStartup.Api.DataContracts;
+namespace DotNet.BackgroundService.Shared.DataContracts;
 
 public record ProductStatusDto
 {

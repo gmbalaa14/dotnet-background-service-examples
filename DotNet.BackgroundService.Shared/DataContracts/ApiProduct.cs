@@ -1,4 +1,4 @@
-namespace DotNet9.BlockingStartup.Api.DataContracts;
+namespace DotNet.BackgroundService.Shared.DataContracts;
 
 public class ApiProduct
 {

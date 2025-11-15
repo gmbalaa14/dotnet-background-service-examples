@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace DotNet9.BlockingStartup.Api.Migrations
+namespace DotNet.BackgroundService.Shared.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreateInMemory : Migration
